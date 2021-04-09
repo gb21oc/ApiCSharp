@@ -10,3 +10,6 @@ C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\Api.Data\obj\Debug\net5.0
 C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\Api.Data\obj\Debug\net5.0\Data.dll
 C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\Api.Data\obj\Debug\net5.0\ref\Data.dll
 C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\Api.Data\obj\Debug\net5.0\Data.pdb
+C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\API.Data\bin\Debug\net5.0\Data.runtimeconfig.json
+C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\API.Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+C:\Users\bielj\OneDrive\Documentos\Udemy\C#\C# API\src\API.Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
