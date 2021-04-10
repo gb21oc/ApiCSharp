@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data.Context
 {
-    public class MyContext: DbContext  //Para poder usar o EntityFrameworkCore
+    public class MyContext: DbContext  //Comando para gerenciar tipos DbContext
     {
         public DbSet<UserEntity> Users { get; set; }
 
