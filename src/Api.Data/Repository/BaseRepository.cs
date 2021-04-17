@@ -17,9 +17,23 @@ namespace Api.Data.Repository
             _context = context;
             _dataset = _context.Set<T>();
         }
-        public Task<bool> DeleteAsynd(Guid item)
+
+        public async Task<bool> DeleteAsynd(Guid id)
         {
-            throw new NotImplementedException();
+            try{
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+
+                if(result == null){
+                    return false;
+                }
+
+                _dataset.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+
+            }catch(Exception ex){
+                throw ex;
+            }
         }
 
         public async Task<T> InsertAsync(T item)
@@ -38,6 +52,10 @@ namespace Api.Data.Repository
             return item;
         }
 
+        public async Task<bool> ExistAsync(Guid id){
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
+        }
+
         public Task<T> SelectAsync(Guid id)
         {
             throw new NotImplementedException();
@@ -48,9 +66,23 @@ namespace Api.Data.Repository
             throw new NotImplementedException();
         }
 
-        public Task<T> UpdateAsync(T item)
+        public async Task<T> UpdateAsync(T item)
         {
-            throw new NotImplementedException();
+            try{
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
+                if(result == null){
+                    return null;
+                }
+                item.UpdateAt = DateTime.UtcNow;
+                item.CreateAt = result.CreateAt;
+
+                _context.Entry(result).CurrentValues.SetValues(item);
+                await _context.SaveChangesAsync();
+            }
+            catch(Exception ex){
+                throw ex;
+            }
+            return item;
         }
     }
 }
