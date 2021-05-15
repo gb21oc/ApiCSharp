@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8gFELm2gQvH6VUUBxJoimmFZKdZDnqfhrT7EWgiK5XFegg5GOK76HnJM2qy4Y5XP7tGP8ruDXZjY+vOdc+z+Ow==",
+  "dgSpecHash": "JuPt/n8mzA1YEnT6BPHgOJhbdyJDQrnNXVxBCKYmC1SBP/TQUXVS0THQo2M0U2N7Znu9v5vDv5k2F9AQg4X9zQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

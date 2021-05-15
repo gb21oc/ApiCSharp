@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj": {}
+    "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\bielj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bielj\\OneDrive\\Documentos\\Udemy\\C#\\C# API\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\bielj\\OneDrive\\Documentos\\Cursos\\Udemy\\C#\\C# API\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bielj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
