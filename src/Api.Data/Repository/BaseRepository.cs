@@ -56,11 +56,10 @@ namespace Api.Data.Repository
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
-        public async Task<T> SelectAsync(Guid id)
-        {
-            try{
-                return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
-            } catch(Exception ex){
+         public async Task<T> SelectAsync (Guid id) {
+            try {
+                return await _dataset.SingleOrDefaultAsync (p => p.Id.Equals (id));
+            } catch (Exception ex) {
                 throw ex;
             }
 
@@ -73,6 +72,7 @@ namespace Api.Data.Repository
             } catch(Exception ex){
                 throw ex;
             }
+
         }
 
         public async Task<T> UpdateAsync(T item)

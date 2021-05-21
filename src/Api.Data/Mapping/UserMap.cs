@@ -9,7 +9,7 @@ namespace Api.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<UserEntity> builder)
         {
-            builder.ToTable("User");
+            builder.ToTable("Usuario");
             builder.HasKey(b => b.Id);
             builder.HasIndex(b => b.Email).IsUnique();
             builder.Property(b => b.Name).IsRequired().HasMaxLength(60);

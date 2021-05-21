@@ -9,9 +9,9 @@ namespace Api.Data.Context
         public MyContext CreateDbContext(string[] args)
         {
            //Used to create migrations
-           var connectionString = "Server=localhost;Port=<your_port>;DataBase=<your_base>;Uid=<your_user>;Pwd=<your_password>";
+           var connectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=CSharpApi;Data Source=LAPTOP-BQIMSF2O\\SQLEXPRESS";
            var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 11)));
+            optionsBuilder.UseSqlServer(connectionString); //, new MySqlServerVersion(new Version(8, 0, 11))
            
            return new MyContext(optionsBuilder.Options);
 
