@@ -12,10 +12,10 @@ namespace Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "char(36)", nullable: false),
-                    Name = table.Column<string>(type: "varchar(60) CHARACTER SET utf8mb4", maxLength: 60, nullable: false),
-                    Email = table.Column<string>(type: "varchar(100) CHARACTER SET utf8mb4", maxLength: 100, nullable: true),
-                    CreateAt = table.Column<DateTime>(type: "datetime(6)", nullable: true),
-                    UpdateAt = table.Column<DateTime>(type: "datetime(6)", nullable: true)
+                    Name = table.Column<string>(type: "varchar(60)", maxLength: 60, nullable: false),
+                    Email = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: true),
+                    CreateAt = table.Column<DateTime>(type: "datetime", nullable: true),
+                    UpdateAt = table.Column<DateTime>(type: "datetime", nullable: true)
                 },
                 constraints: table =>
                 {

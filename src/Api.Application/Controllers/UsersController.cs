@@ -25,7 +25,7 @@ namespace Api.Application.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); //400 bad request - solicitação inválida
+                return BadRequest(ModelState); //400 bad request - solicitação inválida dotnet ef database update
             }
 
             try
