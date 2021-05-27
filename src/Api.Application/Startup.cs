@@ -33,7 +33,15 @@ namespace application
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "Api com AspNetCore 5.0", 
+                    Version = "v1",
+                    Description = "Api feita com arquitetura DDD",
+                    TermsOfService = new Uri("https://github.com/gb21oc"),
+                    Contact = new OpenApiContact{
+                        Name = "Gabriel Jose"
+                    }
+                    });
             });
         }
 
@@ -44,7 +52,10 @@ namespace application
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "application v1"));
+                app.UseSwaggerUI(c => {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Feita em C# - Gb21");
+                    c.RoutePrefix = string.Empty;
+                });
             }
 
             app.UseRouting();
