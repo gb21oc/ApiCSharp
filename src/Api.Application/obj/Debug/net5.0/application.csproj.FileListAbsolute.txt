@@ -72,7 +72,6 @@ C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bi
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\MySqlConnector.dll
-C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.Design.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
@@ -102,3 +101,4 @@ C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bi
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Data.pdb
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\bielj\OneDrive\Documentos\Cursos\Udemy\C#\C# API\src\Api.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
